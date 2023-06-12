@@ -1,0 +1,31 @@
+1. What Is HTTP?
+    HTTP stands for Hyper Text Transfer Protocol. It controls how clinets get,send data to a server.
+
+2.What is a URL?
+    URL stands for Uniform Recource Locator. It is an address for an internet Recource.
+
+3. What is DNS?
+    DNS stands for Domain Name System. Converts URLS to IP adress.
+
+4. What is a query string?
+    Alows you to pass key-value pairs into the URL. ?key1=value1&key2=value2
+
+5. List two HTTP Verbs and their use cases.
+    POST  Sends data to the server. GET gets data from the server.
+
+6. What is an HTTP request?
+    A request from a clinet to a server which follows the HTTP protocol. Searching for a website
+
+7. What is an HTTP response?
+    A resposne to the client from the server which follows HTTP protocol. Grabbing the website.
+
+8. What is an HTTP header? Give a couple examples of request and response headers you have seen.
+    A header Provides additional info about the request or response. Cookie, Host, Accept are some examples for request headers. 
+    Content-type,Set-cookie, Last-modifed are repsonse headers.
+
+9. What happens when you type a URL in a browser?
+    1. Your browers turns your url into and IP address using DNS.
+    2. You make a HTTP Request to that IP.
+    3. The server sends you a HTTP Response.
+    4. Your browser generates a DOM from the html and other resources ie java, css, ect.
+    5. Repeates 2-4 untill all resources are loaded. 
